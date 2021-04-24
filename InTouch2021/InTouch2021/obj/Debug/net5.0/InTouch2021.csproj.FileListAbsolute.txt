@@ -149,3 +149,4 @@ D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\Home\feedBack.cshtml.g.cs
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\InTouch2021.csprojAssemblyReference.cache
+D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\AnketaFormData\Index.cshtml.g.cs

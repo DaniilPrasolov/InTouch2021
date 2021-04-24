@@ -121,3 +121,92 @@ body {
 .mdl-layout__drawer-button{
     color:black !important;
 }
+
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 350px;
+}
+
+.demo-card-square-feed.mdl-card {
+    width: 60%;
+    height: 550px;
+}
+
+.demo-card-square > .mdl-card__title {
+    color: black;
+
+/*    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*//*    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 65%;
+
+}
+
+.card__title-1{
+    background-image: url('../img/target.svg');
+}
+
+.card__title-2 {
+    background-image: url('../img/data1.svg');
+}
+
+.card__title-3 {
+    background-image: url('../img/Advantage.svg');
+}
+
+.card-own-general{
+    align-items:center;
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
