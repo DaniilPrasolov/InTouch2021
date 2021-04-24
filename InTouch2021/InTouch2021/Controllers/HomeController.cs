@@ -23,6 +23,11 @@ namespace InTouch2021.Controllers
             return View();
         }
 
+        public IActionResult feedBack()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
