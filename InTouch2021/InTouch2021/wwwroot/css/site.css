@@ -131,16 +131,30 @@ body {
 .demo-card-square-feed.mdl-card {
     width: 60%;
     height: 550px;
+    padding:20px;
+}
+.demo-card-square-anketa.mdl-card {
+    width: 100%;
+    min-height: 600px;
+    height: min-content;
+}
+
+.demo-card-square-statistic.mdl-card {
+    width: 100%;
+    min-height: 600px;
+    height: min-content;
+}
+
+.myChart{
+    width:100%;
 }
 
 .demo-card-square > .mdl-card__title {
     color: black;
-
-/*    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*//*    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/
-background-repeat: no-repeat;
-background-position: center center;
-background-size: 65%;
-
+    /*    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/ /*    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 65%;
 }
 
 .card__title-1{
@@ -183,7 +197,7 @@ background-size: 65%;
     top: 0;
     width: 18px;
     height: 18px;
-    border: 1px solid #ddd;
+    border: 1px solid darkblue;
     border-radius: 100%;
     background: #fff;
 }
@@ -192,10 +206,10 @@ background-size: 65%;
     content: '';
     width: 12px;
     height: 12px;
-    background: #F87DA9;
+    background: darkblue;
     position: absolute;
-    top: 4px;
-    left: 4px;
+    top: 3px;
+    left: 3px;
     border-radius: 100%;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -209,4 +223,8 @@ background-size: 65%;
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+.demo-list-item {
+    width: 90%;
 }

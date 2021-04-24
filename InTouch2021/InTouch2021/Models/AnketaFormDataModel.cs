@@ -10,7 +10,7 @@ namespace InTouch2021.Models
     public class AnketaFormDataModel
     {
 
-        private readonly float [] kofAr = { 0, 0.5f, 1 };
+       static public int [] kofAr = { 1, 2, 3,4,5 };
 
         [Key]
 

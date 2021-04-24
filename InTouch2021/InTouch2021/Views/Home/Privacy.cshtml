@@ -1,12 +1,68 @@
-﻿@{
-    ViewData["Title"] = "Онлайн-Опрос";
-}
+﻿@*@{
+        ViewData["Title"] = "Онлайн-Опрос";
+    }*@
+
+@model InTouch2021.Models.AnketaFormDataModel;
+
+
 <h1 class="display-2 text-center">@ViewData["Title"]</h1>
 
 <p class="text-center">
     Пройдите анкету о качестве условий осуществления образовательной
-    деятельности.
+    деятельности для получения точных результатов.
 </p>
 <div>
-    <canvas id="myChart" width="400" height="400"></canvas>
+    <div class="demo-card-square-statistic mdl-card mdl-shadow--2dp card-own-general">
+        <canvas id="myChart"></canvas>
+    </div>
+    
+
 </div>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+
+         var ctx = document.getElementById('myChart');
+
+
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [@AnketaFormDataModel.kofAr[0],@AnketaFormDataModel.kofAr[1], @AnketaFormDataModel.kofAr[2], @AnketaFormDataModel.kofAr[3], @AnketaFormDataModel.kofAr[4], 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+    })
+
+
+
+</script>

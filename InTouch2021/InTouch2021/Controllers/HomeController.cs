@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 
 namespace InTouch2021.Controllers
 {
-    //EmailService emailService = new EmailService();
-    //await emailService.SendEmailAsync("intouch2021@mail.ru", "Тема письма", "Тест письма: тест!");
+   
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

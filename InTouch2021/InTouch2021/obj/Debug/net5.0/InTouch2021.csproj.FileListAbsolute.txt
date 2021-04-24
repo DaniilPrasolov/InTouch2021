@@ -143,10 +143,10 @@ D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\FeedBackForm\feedBack.cshtml.g.cs
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\MailKit.dll
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\MimeKit.dll
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\bin\Debug\net5.0\BouncyCastle.Crypto.dll
-D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\Home\feedBack.cshtml.g.cs
-D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\InTouch2021.csprojAssemblyReference.cache
 D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\AnketaFormData\Index.cshtml.g.cs
+D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\InTouch2021.csprojAssemblyReference.cache
+D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\FeedBack\FeedBack.cshtml.g.cs
+D:\study\GIT_PROJECTS\InTouch2021\InTouch2021\InTouch2021\InTouch2021\obj\Debug\net5.0\Razor\Views\FeedBack\Submit.cshtml.g.cs
